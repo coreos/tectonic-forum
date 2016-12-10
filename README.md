@@ -5,11 +5,11 @@ Welcome to the Community Forum for Tectonic, the Enterprise Kubernetes Solution.
 ## Tectonic Resources
 
 Documentation: https://tectonic.com/docs  
-Product Feedback/Feature Requests: tectonic-feedback@coreos.com
+Product Feedback: tectonic-feedback[at]coreos.com
 
 ## Reporting Issues
 
-This Community Forum is primarily for helping each other work through issues, reporting bugs, or identifying requirements for more documentation.
+This Community Forum is primarily for helping each other work through issues, reporting bugs, identifying requirements for more documentation, or submitting feature requests for Tectonic.
 
 If any part of Tectoinc has bugs or documentation mistakes, please let us know by [opening an issue](https://github.com/coreos/tectonic-forum/issues). We treat bugs and mistakes very seriously and believe no issue is too small. Before creating a bug report, please check that an issue reporting the same problem does not already exist.
 
@@ -25,27 +25,4 @@ To make the bug report accurate and easy to understand, please try to create bug
 
 * Scoped. One bug per report. Do not follow up with another bug inside one report. It may be worthwhile to read [Elika Etemad’s article on filing good bug reports](http://fantasai.inkedblade.net/style/talks/filing-good-bugs/) before creating a bug report.
 
-We might ask for further information to locate a bug. A duplicated bug report will be closed. Here is a template we encourage you to use when filing issues:
-
-### Issue Report Template
-
-*Tectonic Version*
-
-*Environment*
-
-What hardware/cloud provider/hypervisor is being used with Tectonic?
-
-*Expected Behavior*
-
-*Actual Behavior*
-
-*Reproduction Steps*
-
-  1. ...
-  2. ...
-
-*Other Information*
-
-## Feature Requests
-
-This Forum is not meant for capturing feature request feedback; please direct any feature requests to tectonic-feedback@coreos.com.
+We might ask for further information to locate a bug. A duplicated bug report will be closed.
