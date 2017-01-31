@@ -4,7 +4,7 @@ Welcome to the Community Forum for Tectonic, the Enterprise Kubernetes Solution.
 
 ## Tectonic Resources
 
-Documentation: https://coreos.com/tectonic/docs/latest/ 
+Documentation: https://coreos.com/tectonic/docs/latest/
 Product Feedback: tectonic-feedback[at]coreos.com
 
 ## Reporting Issues
