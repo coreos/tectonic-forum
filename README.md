@@ -32,4 +32,4 @@ We might ask for further information to locate a bug. A duplicated bug report wi
 
 ### Using Progress File for Troubleshooting
 
-Tectonic installer captures the configuration information and logs up to your point of progress. You can download that data in a progress file from one of the Tectonic installer pages. It is a troubleshooting tool that would help us determine the scenarios in which you had trouble setting up the cluster. Include the progress file in your bug report. Ensure that all the sensitive information, such as the AWS secret key and password, are removed before attaching to the bug report. For additional security you may encrypt the progress file.
+Tectonic installer captures the configuration information and logs up to your point of progress. You can download that data in a progress file from one of the Tectonic installer pages. It is a troubleshooting tool that would help us determine the scenarios in which you had trouble setting up the cluster. Include the progress file in your bug report. Ensure that all the sensitive information, such as the AWS secret key, password, and license, are removed before attaching to the bug report.
