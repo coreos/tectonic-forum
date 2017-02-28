@@ -12,6 +12,8 @@ Product Feedback: tectonic-feedback[at]coreos.com
 
 This Community Forum is primarily for helping each other work through issues, reporting bugs, identifying requirements for more documentation, or submitting feature requests for Tectonic.
 
+### Opening an Issue
+
 If you find bugs or documentation issues in any part of Tectonic, please let us know by [opening an issue](https://github.com/coreos/tectonic-forum/issues). We treat bugs and mistakes very seriously and believe no issue is too small. Before creating a bug report, please check that an issue reporting the same problem does not already exist.
 
 To make the bug report accurate and easy to understand, please try to create issues that are:
@@ -27,3 +29,7 @@ To make the bug report accurate and easy to understand, please try to create iss
 * _Scoped_. One bug per issue; please do not follow up with another bug inside one report. It may be worthwhile to read [Elika Etemad’s article on filing good bug reports](http://fantasai.inkedblade.net/style/talks/filing-good-bugs/) before creating a bug report.
 
 We might ask for further information to locate a bug. A duplicated bug report will be closed.
+
+### Using Progress File for Troubleshooting
+
+Tectonic installer captures the configuration information and logs up to your point of progress. You can download that data in a progress file from one of the Tectonic installer pages. It is a troubleshooting tool that would help us determine the scenarios in which you had trouble setting up the cluster. Include the progress file in your bug report. Ensure that all the sensitive information, such as the AWS secret key and password, are removed before attaching to the bug report. For additional security you may encrypt the progress file.
