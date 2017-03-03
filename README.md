@@ -1,6 +1,6 @@
 # Tectonic Community Forum
 
-Welcome to the Community Forum for Tectonic, the Enterprise Kubernetes Solution. 
+Welcome to the Community Forum for Tectonic, the Enterprise Kubernetes Solution.
 
 ## Tectonic resources
 
@@ -32,7 +32,7 @@ We might ask for further information to locate a bug. A duplicated bug report wi
 
 #### Tectonic Installer Progress file
 
-Click the *Save progress* button at the top right corner of any Installer screen to download a snapshot of install configuration and progress. A JSON-formatted file named `tectonic-progress` will be written beneath the browser's default download path. Including the Progress file from a failed installation can assist troubleshooting.
+Click the *Save progress* button at the top right corner of any Installer screen to download a snapshot of install configuration and progress. A JSON-formatted file named `tectonic-progress` will be written beneath the browser's download path. Including the Progress file from a failed installation can assist troubleshooting. Attach the Progress file to the corresponding Issue in this repository.
 
 Before sending a Progress file, ensure that the potentially sensitive values of the following keys are removed or obscured from the Progress file:
 
