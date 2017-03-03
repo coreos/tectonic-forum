@@ -1,4 +1,4 @@
-I# Tectonic Community Forum
+# Tectonic Community Forum
 
 Welcome to the Community Forum for Tectonic, the Enterprise Kubernetes Solution. 
 
@@ -30,11 +30,11 @@ To make the bug report accurate and easy to understand, please try to create iss
 
 We might ask for further information to locate a bug. A duplicated bug report will be closed.
 
-### Using Progress File for Troubleshooting
+#### Tectonic Installer Progress file
 
-Tectonic installer captures the configuration information and logs up to your point of progress. You can download that data in a file from one of the Tectonic installer pages. Click the *Save progress* button given at the top right corner on the installer page to do so. The file, named `tectonic-progress`, is downloaded to the default download location of your browser. Include this file in your bug report. It is a troubleshooting tool that would help us determine the scenarios in which you had trouble setting up the cluster. 
+Click the *Save progress* button at the top right corner of any Installer screen to download a snapshot of install configuration and progress. A JSON-formatted file named `tectonic-progress` will be written beneath the browser's default download path. Including the Progress File from a failed installation can assist troubleshooting.
 
-Before attaching the progress file to the bug report, ensure that the following sensitive information is removed:
+Before sending a Progress file, ensure that the potentially sensitive values of the following keys are removed or obscured from the Progress File:
 
 * AWS access key (`awsAccessKeyId`)
 
