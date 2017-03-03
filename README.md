@@ -37,13 +37,8 @@ Click the *Save progress* button at the top right corner of any Installer screen
 Before sending a Progress file, ensure that the potentially sensitive values of the following keys are removed or obscured from the Progress file:
 
 * AWS access key (`awsAccessKeyId`)
-
 * AWS secret (`awsSecretAccessKey`)
-
 * Tectonic key (`accountID`)
-
 * Tectonic secret (`accountSecret`)
-
 * Tectonic license (`tectonicLicense`)
-
 * Pull secret (`pullSecret`)
